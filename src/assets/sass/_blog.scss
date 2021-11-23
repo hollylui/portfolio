@@ -1,0 +1,98 @@
+.blogHeader {
+  background-color: var(--blogHeaderBg);
+}
+
+// BlogSection.jsx
+.blog {
+  background-color: var(--blogSectionBg);
+
+  .blogSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 0;
+
+    .eachBlog {
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      animation-name: fadeOut;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      position: relative;
+      background-color: white;
+
+      h2 {
+        margin: 15px 0 0 0;
+      }
+
+      .date {
+        font-size: 1.5rem;
+        font-family: "Open Sans", sans-serif;
+        margin: 5px 0;
+      }
+
+      img {
+        width: 100%;
+        max-height: 180px;
+        object-fit: cover;
+        border-top: 1px solid #b9b9b9b0;
+        border-bottom: 1px solid #b9b9b9b0;
+      }
+
+      .body {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        min-height: 130px;
+      }
+
+      &:hover {
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+
+      h2,
+      .date,
+      .body {
+        padding: 0 8px;
+      }
+
+      button {
+        background-color: #bdae2457;
+        border: none;
+        padding: 0 10px;
+        font-size: 1.6rem;
+        font-weight: 400;
+        border-radius: 5px;
+        font-family: "Open Sans", sans-serif;
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+
+        &:hover {
+          background-color: #ffe600;
+        }
+      }
+    }
+  }
+}
+
+// @keyframes ----------------------------
+@keyframes fadeIn {
+  from {
+    filter: grayscale(70%);
+  }
+  to {
+    filter: grayscale(0%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    filter: grayscale(0%);
+  }
+  to {
+    filter: grayscale(70%);
+  }
+}

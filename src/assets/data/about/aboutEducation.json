@@ -1,0 +1,34 @@
+[
+    {
+        "id": 4,
+        "school": "Digital Career Instituion",
+        "department": "null",
+        "period": "March 2021- April 2022",
+        "major": "Web Development"
+        
+    },
+    {
+        "id": 3,
+        "school": "Digital Career Instituion",
+        "department": "null",
+        "period": "Dec 2020- Jan 2021",
+        "major": "Orientation Course"
+        
+    },
+    {
+        "id": 2,
+        "school": "City University of Hong Kong",
+        "department": "Advanced Design and Systems Engineering",
+        "period": "Sep 2009- Sep 2011",
+        "major": "MSc Engineering Management"
+        
+    },
+    {
+        "id": 1,
+        "school": "The Hong Kong University of Science and Technology",
+        "department": "Department of Mechanical Engineering",
+        "period": "Sep 1998- Sep 2003",
+        "major": "BEng in Mechanical Engineering."
+        
+    }
+]

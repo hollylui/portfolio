@@ -1,0 +1,23 @@
+[   
+        {
+        "id": 3,
+        "position": "ASIC Design Engineer",
+        "period": "Dec 2015 - Apr 2020",
+        "company": "Apple Technology Service B.V. & Co. KG | Dialog Semiconductor GmbH",
+        "duties": ["Performed thermal and mechanical simulations such as BLR (Ball Level Reliability) and warpage by Ansys Icepack and Mechanical.", "Performed fusing and thermal measurement with T3ster, IR camera, etc." ]
+    },
+    {
+        "id": 2,
+        "position": "Division Manager",
+        "period": "Aug 2011 - Nov 2014",
+        "company": "OMS spol. sr.o.",
+        "duties": ["Leaded the team in problem-solving method and consensue-building activities.","Arranged on-site trainings for subordinates.", "Organized reports, presentation and communication between supervisor and subordinates." ]
+    },
+    {
+        "id": 1,
+        "position": "Engineer",
+        "period": "Feb 2008- Feb 2011",
+        "company": "Astri Ltd.",
+        "duties": ["Researched and developed IC package roadmap.","Designed and analyzed IC Packaging thermal issue and reliability." ]
+    }
+]

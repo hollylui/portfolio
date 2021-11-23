@@ -1,0 +1,96 @@
+.portfolioHeader {
+  background-color: var(--portfolioHeaderBg);
+}
+
+.backend {
+  background-color: var(--portfolioBackendBg);
+
+  .portfolioSection {
+    flex-direction: column;
+    max-height: 600px;
+    min-width: 1200px;
+    align-items: center;
+  }
+}
+
+.spa {
+  background-color: var(--portfolioSpaBg);
+
+  .portfolioSection {
+    justify-content: center;
+  }
+}
+
+.uib {
+  background-color: var(--portfolioUibBg);
+
+  .portfolioSection {
+    flex-direction: column;
+    max-height: 900px;
+    max-width: 1200px;
+    align-items: center;
+  }
+}
+
+.freeCodeCamp {
+  background-color: var(--portfolioFreeCodeCampBg);
+
+  .portfolioSection {
+    justify-content: center;
+  }
+}
+
+.freeCodeCamp,
+.backend,
+.uib,
+.spa {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    font-size: 6.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+  }
+
+  .portfolioSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+
+    .eachPortfolio {
+      max-width: 280px;
+      margin: 10px;
+      filter: grayscale(80%);
+      transition: 0.3s ease-in;
+
+      .exercise {
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      // image size: 350px X 250px
+      img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 15px;
+      }
+
+      &:hover {
+        text-decoration: underline double;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: 2.5px;
+        text-underline-offset: 3px;
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
