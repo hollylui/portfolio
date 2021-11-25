@@ -27,8 +27,9 @@ import backend8 from "../../assets/image/portfolio/backend/backend8.png";
 
 import freecodecamp1 from "../../assets/image/portfolio/freecodecamp/freecodecamp1.png";
 import freecodecamp2 from "../../assets/image/portfolio/freecodecamp/freecodecamp2.png";
+import freecodecamp3 from "../../assets/image/portfolio/freecodecamp/freecodecamp3.png";
 
-export const freecodecampImages = [freecodecamp2, freecodecamp1];
+export const freecodecampImages = [freecodecamp3, freecodecamp2, freecodecamp1];
 
 export const backendImages = [
   backend8,
