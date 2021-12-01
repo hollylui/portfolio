@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import logo from "../../assets/image/home/logo_200x200.png";
 
+// const { APIKEY } = process.env;
 const APIKEY = "ab1e99483da6739bd388885399851226";
 
 const NavigationBar = () => {
