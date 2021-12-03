@@ -6,11 +6,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // views and components --------------------------------------
 import NavigationBar from "../components/navbar/NavigationBar";
 import Home from "../views/home/Home";
-import Legal from "../views/legal/Legal";
 import Blog from "../views/blog/Blog.jsx";
 import Portfolio from "../views/portfolio/Portfolio";
 import About from "../views/about/About";
 import Contact from "../views/contact/Contact";
+import NotFound from "../views/notFound/NotFound";
 
 // context --------------------------------------------
 import ScrollContext from "../context/ScrollContext";
@@ -49,16 +49,19 @@ const Main = () => {
       <Router>
         <NavigationBar />
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/about" component={About} />
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/about" component={About} />
 
-          <FormContext.Provider value={formProps}>
-            <Route path="/contact" component={Contact} />
-          </FormContext.Provider>
-        </Switch>
+            <FormContext.Provider value={formProps}>
+              <Route path="/contact" component={Contact} />
+            </FormContext.Provider>
+            <Route component={NotFound} />
+          </Switch>
+        </main>
       </Router>
     </ScrollContext.Provider>
   );

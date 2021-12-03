@@ -5,7 +5,7 @@ import ScrollContext from "../../context/ScrollContext";
 import HomeSection1 from "./HomeSection1";
 import HomeSection2 from "./HomeSection2";
 import HomeSection3 from "./HomeSection3";
-import HomeFooter from "./HomeFooter";
+import HomeSection4 from "./HomeSection4";
 import Footer from "../../components/footer/Footer";
 
 const Home = () => {
@@ -17,7 +17,8 @@ const Home = () => {
       <HomeSection1 />
       <HomeSection2 />
       <HomeSection3 />
-      <HomeFooter />
+      <HomeSection4 />
+      <Footer />
     </animated.div>
   );
 };

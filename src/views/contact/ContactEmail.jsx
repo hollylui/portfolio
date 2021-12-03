@@ -15,7 +15,7 @@ const ContactEmail = () => {
       <div className="offer">Request for Proposal</div>
       <div className="offer">All Opportunities</div>
       <div className="offer">All Cooperation</div>
-      <div className="sendTo">You can send eamil to </div>
+      <div className="clickAndCopy">Click and copy: </div>
 
       {/* copy email addresss --------------------------- */}
       <CopyToClipboard text="hollylui@gmail.com">

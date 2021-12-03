@@ -1,12 +1,11 @@
-import { Container, Nav } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import { Container } from "react-bootstrap";
 import facebook from "../../assets/image/home/facebook.png";
 import instagram from "../../assets/image/home/instagram.png";
 import logo from "../../assets/image/home/logo_200x200.png";
 
-const HomeFooter = () => {
+const HomeSection4 = () => {
   return (
-    <div className="homeFooter">
+    <div className="homeSection4">
       <Container className="container">
         <img className="logo" src={logo} alt="" />
         <p>
@@ -17,19 +16,19 @@ const HomeFooter = () => {
         <img src={facebook} alt="facebook" />
         <img src={instagram} alt="instagram" />
 
-        <hr />
+        {/* <hr /> */}
 
         {/* copyright  ----------------- */}
-        <div className="copyright">
+        {/* <div className="copyright">
           <span>2021© All rights reserved </span>
 
           <a className="backToTop" href="#top" title="Back to top">
             &#9650;
           </a>
-        </div>
+        </div> */}
       </Container>
     </div>
   );
 };
 
-export default HomeFooter;
+export default HomeSection4;

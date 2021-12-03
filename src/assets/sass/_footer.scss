@@ -1,4 +1,4 @@
-.footer {
+footer {
   font-size: 1.8rem;
   background-color: var(--footerBg);
 
@@ -13,8 +13,11 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
 
-      .gridCopyright {
+      .gridRight {
         text-align: left;
+        img {
+          width: 40px;
+        }
       }
 
       .gridBackToTop {
@@ -40,12 +43,9 @@
         }
       }
 
-      .gridLogo {
+      .gridLeft {
         text-align: right;
-
-        img {
-          width: 40px;
-        }
+        line-height: 40px;
       }
     }
   }
