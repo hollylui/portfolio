@@ -3,8 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import logo from "../../assets/image/home/logo_200x200.png";
 
-// const { APIKEY } = process.env;
-const APIKEY = "ab1e99483da6739bd388885399851226";
+const { REACT_APP_API_URL, REACT_APP_API_KEY } = process.env;
 
 const NavigationBar = () => {
   const [temp, setTemp] = useState("");
@@ -12,7 +11,7 @@ const NavigationBar = () => {
   const [description, setDescription] = useState("");
 
   const city = "Kirchheim";
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric`;
+  const weatherUrl = `${REACT_APP_API_URL}/data/2.5/weather?q=${city}&appid=${REACT_APP_API_KEY}&units=metric`;
 
   const getWeather = async () => {
     const response = await fetch(weatherUrl);
