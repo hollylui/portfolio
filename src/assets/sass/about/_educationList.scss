@@ -1,0 +1,16 @@
+// AboutEducation.jsx --------------------------
+.education {
+  background-color: var(--aboutEducationBg);
+
+  .major {
+    color: #ff9900;
+    font-weight: 700;
+  }
+
+  .school,
+  .department {
+    font-size: 1.8rem;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+  }
+}

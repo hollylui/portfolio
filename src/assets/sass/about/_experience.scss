@@ -1,0 +1,21 @@
+// AboutExerpeince.jsx --------------------------
+
+.experience {
+  background-color: var(--aboutExperienceBg);
+
+  .position {
+    color: #ff9900;
+    font-weight: 700;
+  }
+
+  .duty {
+    font-weight: 300;
+  }
+
+  .company,
+  .duty {
+    font-size: 1.8rem;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+  }
+}

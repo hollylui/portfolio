@@ -5,14 +5,30 @@
 
 @import "./reset";
 @import "./navbar";
-@import "./home";
-@import "./blog";
-@import "./blogPopUp";
-@import "./portfolio";
-@import "./about";
-@import "./contact";
+
+@import "./home//homeSection1";
+@import "./home//homeSection2";
+@import "./home//homeSection3";
+@import "./home//homeFooter";
+
+@import "./blog/blog";
+@import "./blog/blogPopUp";
+
+@import "./portfolio/portfolio";
+@import "./portfolio/spa";
+@import "./portfolio/uib";
+@import "./portfolio/freecodecamp";
+
+@import "./about/about";
+@import "./about/skillList";
+@import "./about/educationList";
+@import "./about/experience";
+
+@import "./contact/contact";
+@import "./contact/email";
+@import "./contact/form";
+
 @import "./footer";
-@import "./contact";
 
 :root {
   font-size: 62.5%;

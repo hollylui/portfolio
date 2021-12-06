@@ -1,0 +1,48 @@
+.contactHeader {
+  background-color: var(--contactHeaderBg);
+  color: white;
+}
+
+// ContactContent.jsx -------------------
+
+.contactContent {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px 0;
+  background-color: var(--contacatContentBg);
+  color: white;
+
+  // for all ------------------------------
+  .email,
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 45px;
+
+    .title {
+      font-size: 5rem;
+
+      span {
+        font-size: 3rem;
+        font-family: "Crimson Pro", serif;
+      }
+    }
+
+    .contactImg {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      background-color: #f9d5a7;
+
+      img {
+        width: 6rem;
+        height: 6rem;
+      }
+    }
+  }
+}

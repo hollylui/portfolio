@@ -1,0 +1,34 @@
+// HomeSection2.js -----------------------------------------------
+.homeSection2 {
+  background-color: var(--homeSecion2Bg);
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 400px;
+
+    img {
+      max-width: 35%;
+      object-fit: cover;
+      align-self: flex-end;
+    }
+
+    .briefInto {
+      max-width: 50%;
+      text-align: left;
+      font-size: 2.4rem;
+      font-weight: 300;
+
+      margin-top: 20px;
+      align-self: flex-start;
+
+      p {
+        margin-bottom: 20px;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

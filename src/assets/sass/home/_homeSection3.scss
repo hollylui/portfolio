@@ -1,0 +1,54 @@
+.homeSection3 {
+  background-color: var(--homeSection3Bg);
+
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 5px;
+
+  .container {
+    max-width: 50%;
+    min-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+
+    .thanks {
+      font-size: 5rem;
+      font-weight: 700;
+    }
+
+    p {
+      max-width: 55%;
+      text-align: center;
+      line-height: 35px;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+
+      img {
+        height: 50px;
+        object-fit: cover;
+      }
+
+      p {
+        border: 1px solid white;
+        padding: 5px 10px;
+        font-size: 1.6rem;
+      }
+
+      p,
+      .imgRadius {
+        border-radius: 10px;
+      }
+    }
+  }
+}

@@ -13,33 +13,6 @@
   }
 }
 
-.spa {
-  background-color: var(--portfolioSpaBg);
-
-  .portfolioSection {
-    justify-content: center;
-  }
-}
-
-.uib {
-  background-color: var(--portfolioUibBg);
-
-  .portfolioSection {
-    flex-direction: column;
-    max-height: 900px;
-    max-width: 1200px;
-    align-items: center;
-  }
-}
-
-.freeCodeCamp {
-  background-color: var(--portfolioFreeCodeCampBg);
-
-  .portfolioSection {
-    justify-content: center;
-  }
-}
-
 .freeCodeCamp,
 .backend,
 .uib,

@@ -3,57 +3,6 @@
   color: #e7e7e7;
 }
 
-// AboutSkillsList.jsx -------------------------
-.skillsList {
-  background-color: var(--aboutSkillsListBg);
-
-  .skillsSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 550px;
-    gap: 30px;
-  }
-}
-// AboutEducation.jsx --------------------------
-.education {
-  background-color: var(--aboutEducationBg);
-
-  .major {
-    color: #ff9900;
-    font-weight: 700;
-  }
-
-  .school,
-  .department {
-    font-size: 1.8rem;
-    font-family: "Open Sans", sans-serif;
-    color: white;
-  }
-}
-
-// AboutExerpeince.jsx --------------------------
-
-.experience {
-  background-color: var(--aboutExperienceBg);
-
-  .position {
-    color: #ff9900;
-    font-weight: 700;
-  }
-
-  .duty {
-    font-weight: 300;
-  }
-
-  .company,
-  .duty {
-    font-size: 1.8rem;
-    font-family: "Open Sans", sans-serif;
-    color: white;
-  }
-}
-
 // AboutEducation.jsx & AboutExerpeince.jsx------
 .skillsList,
 .education,

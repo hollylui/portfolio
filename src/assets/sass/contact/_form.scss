@@ -1,0 +1,37 @@
+// form -----------------------------------
+form {
+  label {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2.5px;
+  }
+
+  input {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    font-size: 1.6rem;
+    text-indent: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    font-size: 2rem;
+    margin: 15px 0;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    background-color: #864879;
+    color: white;
+
+    &:hover {
+      background-color: #e9a6a6;
+      color: black;
+    }
+  }
+}
