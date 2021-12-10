@@ -30,6 +30,9 @@
 
 @import "./footer";
 
+@import "./notFound/notFound";
+@import "./notFound/notFoundContent";
+
 :root {
   font-size: 62.5%;
 
@@ -70,6 +73,9 @@
 
   // footer
   --footerBg: #e1d89f;
+
+  //not found
+  --notfoundBg: #aff0e4;
 }
 
 .App {
