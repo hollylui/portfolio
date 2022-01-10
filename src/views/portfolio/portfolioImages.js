@@ -26,6 +26,7 @@ import backend7 from "../../assets/image/portfolio/backend/backend7.png";
 import backend8 from "../../assets/image/portfolio/backend/backend8.png";
 import backend9 from "../../assets/image/portfolio/backend/backend9.png";
 import backend10 from "../../assets/image/portfolio/backend/backend10.png";
+import backend11 from "../../assets/image/portfolio/backend/backend11.png";
 
 import freecodecamp1 from "../../assets/image/portfolio/freecodecamp/freecodecamp1.png";
 import freecodecamp2 from "../../assets/image/portfolio/freecodecamp/freecodecamp2.png";
@@ -40,6 +41,7 @@ export const freecodecampImages = [
 ];
 
 export const backendImages = [
+  backend11,
   backend10,
   backend9,
   backend8,
